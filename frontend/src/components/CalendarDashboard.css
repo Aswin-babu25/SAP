@@ -1,0 +1,27 @@
+/* src/components/CalendarDashboard.css */
+
+/* Force calendar main background to white */
+.bg-white .rbc-calendar {
+  background-color: #fff !important;
+  color: #000;
+}
+
+/* Light theme for headers and navigation */
+.rbc-header, 
+.rbc-toolbar button, 
+.rbc-toolbar label {
+  background: #f8f9fa !important;
+  color: #343a40 !important;
+}
+
+/* Day cell backgrounds remain white */
+.rbc-day-bg {
+  background-color: #fff !important;
+}
+
+/* Highlight today's background softly */
+.rbc-today {
+  background-color: #e9f5ff !important;
+}
+
+/* Event cell styling is already configured via eventPropGetter */

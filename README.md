@@ -1,2 +1,0 @@
-# SAP
-A SAP enterprise

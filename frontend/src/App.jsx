@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import MyEvents from "./pages/MyEvents";
 import { getAllEvents } from "./api/event.api";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import EventDetail from "./pages/EventDetail";
 
 export default function App() {
   const [showForm, setShowForm] = useState(false);
